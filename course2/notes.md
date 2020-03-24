@@ -11,4 +11,5 @@
 * Para una optima división del dataset se pueden seguir los siguientes casos: 
     - Si el dataset consta de 100 a 1000000 registros entonces la division es: 60% para el train_set, 20% para el dev_set y 20% para el test_set.
     - Si el dataset consta con mas de 1000000 registros, la división es la siguiente: 98% para el train_set, 1% para el dev_set y 1% para el test_set.
-* 
+* El objetivo del dev_set es mejorar el desempeño del modelo.
+* Es muy comun omitir el uso del dev_set, suplantandolo con el test_set. 
