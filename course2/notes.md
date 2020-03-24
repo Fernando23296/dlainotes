@@ -23,3 +23,6 @@
     - Train_set error: 15% y Dev_set error: 16% -> Parece ser un caso de Underfitting (High Variance).
     - Train_set error: 15% y Dev_set error: 30% -> Parece ser un caso tanto de Underfitting y Overfitting.
     - Train_set error: 0.5% y Dev_set error: 1% -> Parece ser un caso de Bias y Variance bajo.
+
+* Un caso de alto bias y alto variance:
+[](image/biasyvar.jpg)]
