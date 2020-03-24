@@ -44,6 +44,10 @@ Hay distintas manera de medir la magnitud de los vectores:
 * <b>L0</b> en realidad no es un Norm, sino corresponde al numero total de numero de elementos nonzero en un vector. Por ejemplo el L0 norm entre los vectores (0,0) y (0,2) es 1, porq hay un elemento nonzero. Una manera practica para entender esto es sobre el username y la contraseña. Si el L0 Norm de los vectores (password y username) es 0, entonces el login fue exitoso. Por otro lado si es 1, entonces significa que o el password o el username es incorrecto. Finalmente, si el L0 es 2, entonces ambos son incorrectos.
 * <b>L1</b> tambien conocido como Distancias de Manhattan. Es la suma de magnitudes de los vectores en un espacio. Es la suma de las diferencias absolutas de los componentes de los vectores. En este Norm, todos los componentes del vector son iguales en peso (?)
 ![](img/l1.jpg) 
+* En otras palabras, el L1 es la distancia que se recorre entre el origen (0,0) al destino (3,4).
+* <b>L2</b> es tambien conocido como el norm Euclidiano. Es la distancia mas corta entre un punto y otro.
+![](img/l2.jpg)
+* Algo a tomar en cuenta es que con L2 los componentes se elevan al cuadrado, por lo que los valores atipicos tienen mas ponderacion, lo cual puede llevar a un sesgo en los resultados.
 
 * La implementacion de la regularizacion en nuestro modelo, ayuda a reducir la Variance.
 * L1 Matrix norm:
