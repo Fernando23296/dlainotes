@@ -49,5 +49,12 @@ Hay distintas manera de medir la magnitud de los vectores:
 ![](img/l2.jpg)
 * Algo a tomar en cuenta es que con L2 los componentes se elevan al cuadrado, por lo que los valores atipicos tienen mas ponderacion, lo cual puede llevar a un sesgo en los resultados.
 
+<b> Aqui cierra el repaso </b>
+
 * La implementacion de la regularizacion en nuestro modelo, ayuda a reducir la Variance.
 * L1 Matrix norm:
+    - ||w|| = Sum(|w[i,j]|) #Sumatoria de todos los valores absolutos para todos los w.
+* L2 Matrix norm tambien conocido como el norm Frobenius:
+    - ||w||^2 = Sum(|w[i,j]|^2) #Sumatoria de todos los cuadrados de w 
+    - Tambien es calculado de la siguiente manera: ||w||^2 = W.T * W solo si W es un vector
+    
